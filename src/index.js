@@ -13,3 +13,12 @@ export default {
     return new Response('These are not the droids you are looking for', { status: 404 });
   }
 };
+
+
+export default {
+  async fetch(request) {
+    return new Response("Comment Worker 작동 중 ✅", {
+      headers: { "content-type": "text/plain" }
+    });
+  }
+};
