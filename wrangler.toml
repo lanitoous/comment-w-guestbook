@@ -2,7 +2,7 @@
 name = "comment-worker"
 
 # The entrypoint/path to the file that will be executed.
-main = "./src/index.js"
+main = "/src/index.js"
 
 # Whether you use `<NAME>.<SUBDOMAIN>.workers.dev` to
 # test and deploy your Worker.
